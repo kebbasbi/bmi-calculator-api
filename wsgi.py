@@ -1,5 +1,4 @@
-from app from app as application
-
+from app import app as application
 
 if __name__ == '__main__':
-    application.run()
+    application.run(debug=True)
